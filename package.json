@@ -1,0 +1,15 @@
+{
+  "name": "reverse-ts",
+  "version": "1.0.0",
+  "main": "dist/reverseArray.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/reverseArray.js",
+    "dev": "ts-node src/reverseArray.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
